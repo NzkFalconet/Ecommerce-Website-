@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,14 +17,10 @@ p{
 }
 
 .header-disc h1{
-    font-weight: 900;
+    font-weight:800!important;
     font-size: 2.7rem;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
+
 
 nav{
     flex: 1;
@@ -66,7 +65,7 @@ nav ul li a:hover{
 
 .header-first{
     width: 100%;
-  height: 130vh;
+  height: 120vh;
     
     padding: 250px 0;
     
@@ -110,17 +109,353 @@ nav ul li a:hover{
 }
 
 
+/* -------------categories section starts-------------- */
+
+.categories{
+    width: 100%;
+    height: auto;
+    padding: 100px 0 0px 0;
+}
+
+.categories img{
+    width: 100%;
+}
+
+/* -------------categories section ends-------------- */
+
+
+/* --------------------------featured products start-------------------  */
+
+.prodcuts{
+    width: 100%;
+    height: auto;
+    
+    padding: 100px 0 50px 0;
+}
+
+.title1 {
+
+    margin: 10 0 10px;
+    padding: 0 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.title1::after {
+    background-color: #ff523b; 
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 5px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 100px;
+    border-radius: 100px;
+}
+
+.products-row{
+    margin-top:50px;
+}
+
+.prodcuts img{
+    width: 100%;
+    height: auto;
+}
+
+.product-card:hover{
+    transform: translateY(-20px);
+    transition: 0.5s ease;
+}
+.prodcuts h4{
+    color: #adadad;
+    font-size: 1rem;
+    line-height: 1;
+    padding:20px 0 0 0;
+}
+
+.rating i{
+    color: #ff523b;
+}
+
+.title2 {
+
+    margin: 70px 0 10px;
+    padding: 0 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.title2::after {
+    background-color: #ff523b; 
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 5px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 100px;
+    border-radius: 100px;
+}
+
+
+/* --------------------------featured products ends-------------------  */
+
+
+
+
+/* --------------------------offers start-------------------  */
+.offers{
+    width: 100%;
+    height: auto;
+    padding:100px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+    
+}
+
+.offer-img{
+    width: 100%;
+    height: auto;
+}
+
+.offers p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #adadad;
+}
+.offers h1{
+    font-weight: bolder;
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+}
+
+small{
+    color: #adadad;
+    font-size: 0.9rem;
+}
+
+.header-disc-button{
+    margin: 30px 0;
+}
+
+.arrow-icon{
+    margin-left: 5px;
+}
+
+.header-disc-button a:hover{
+    text-decoration: none;
+    color: #ff523b;
+    background-color: #fff;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.header-disc-button a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    font-size: 1.rem;
+    font-weight: 400;
+    
+    margin-top: 500px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    line-height: 1.4px;
+    text-align: center;
+    background-color: #ff523b;
+}
+
+/* --------------------------offers start-------------------  */
+
+
+
+/* --------------------------testimonial section start-------------------  */
+.testimonial {
+    width: 100%;
+    height: auto;
+    padding:100px 0;
+}
+
+.testimonial h1{
+    margin: 50px 0 50px 0;
+}
+
+
+.title3 {
+
+    margin: 70px 0 10px;
+    padding: 0 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.testimonial-card{
+    padding: 60px 20px; 
+   cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    color: #adadad;
+    
+    
+}
+
+.testimonial-card:hover{
+    transform: translateY(-10px);
+}
+.quote{
+    color: #000;
+}
+.testimonial p{
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.testimonial h3{
+    color: #000;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.testimonial img{
+    width: 100px;
+    border-radius: 100px;
+    border: 5px solid #ff523b;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+/* --------------------------testimonial section ends-------------------  */
+
+
+
+
+/* --------------------------brands section start------------------------- */
+
+.brand{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+
+}
+
+.brand img{
+    width:100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+
+.brand img:hover{
+
+    filter: grayscale(0%);
+}
+
+/* --------------------------brands section ends------------------------- */
+
+
+
+/* --------------------------footer section ends------------------------- */
+
+footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 0px;
+    text-align: center;
+}
+
+footer h3{
+    color: #fff;
+}
+
+
+
+.footer-links1 h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 30px 0 10px 0;
+}
+
+footer img{
+    width: 38%;
+    height: auto;
+}
+
+
+.footer-links2{
+    text-align: center;
+ }
+
+ .footer-links2 {
+    margin-top: 20px;
+ }
+
+ .footer-links2 img {
+    width: 50%;
+    margin-bottom: 10px;
+ }
+
+ .footer-links3{
+    text-align: right;
+    margin-top: 20px;
+
+ }
+
+
+.footer-links3 li{
+    list-style: none;
+ }
+ .footer-links3 li:hover{
+    color: #adadad;
+ }
+/* --------------------------footer section ends------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ************************************media query***************************** */
+@media only screen and (min-width: 991px) {
+  .navbar{
+    background: radial-gradient(#fff,#ffd6d6);
+    padding: 13px 0;
+  }
+
+  }
 
 @media only screen and (max-width: 990px) {
     .navbar-img{
         width: 100%;
     height: auto;
       margin-top: -50px;  
+      
     }
     body{
         font-size: 1rem;
     }
+    nav{
+        background-color: blanchedalmond;
+    }
+    .categories img{
+        margin-top: 30px;
+    }
+    .categories{
+        padding: 0px;
+    }
+
   }
 
   @media only screen and (max-width: 768px) {
@@ -138,5 +473,8 @@ nav ul li a:hover{
         width: 100%;
     height: auto;
       margin-top: 50px;  
+    }
+    footer .footer-links3{
+        text-align: center!important;
     }
   }
