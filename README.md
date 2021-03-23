@@ -1,2 +1,4 @@
 # Ecommerce-Website-
-i'll add disc later
+This is a Ecommerce website mianly created with HTML,CSS & JAVASCRIPT.
+
+# Hosted Project-
